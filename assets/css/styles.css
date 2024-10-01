@@ -11,6 +11,11 @@ h2 {
   letter-spacing: 4px;
   text-transform: uppercase;
   margin-bottom: 24px;
+  transition: all 2s ease-in;
+}
+
+a:hover{
+  color:#33A8DB ;
 }
 
 p {
@@ -45,6 +50,7 @@ section {
   background: -webkit-linear-gradient(#33A8DB, #1472B7);
   background-clip: text;
   -webkit-background-clip: text;
+  transition: all 3s ease;
 }
 
 .banner p {
@@ -122,6 +128,7 @@ section {
   text-transform: lowercase;
   max-width: 250px;
   text-shadow: 3px 2px #33A8DB;
+  transition: all 3s ease-in-out
 }
 
 #professional-challenges {
